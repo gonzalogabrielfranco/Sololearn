@@ -1,0 +1,59 @@
+<!--esto es un selector de id -->
+#identificador{
+    color: white;
+}
+.clase{
+    color:white;
+    background-color: black;
+}
+<!-- identificador descendiente-->
+#ident .clases em{
+    font-family: Arial, sans-serif;
+    color:black;
+    background-color: red;
+}
+.clasesizemedium{
+    font-size: small;
+}
+.clasesizelarger{
+    font-size: xxx-large;
+    color: white;
+    background-color: black;
+}
+.classitalica{
+    font-style: italic;
+}
+.classoblicua{
+    font-style: oblique;
+}
+.classnormal{
+    font-style: normal;
+}
+.classligth{
+    font-weight: lighter;
+    #esto es igual a 100
+}
+.classbold{
+    font-weight: bold;
+    #esto es igual a 400
+}
+.classbolder{
+    font-weight: bolder;
+    color: rgb(230,230,130) ;
+    background-color: red;
+    #esto es igual a 900
+
+}
+.classmayuscula{
+    font-variant: all-small-caps;
+    color: #0000FF;
+}
+.classarriba{
+    vertical-align: super;
+}
+.classedio{
+    vertical-align: middle;
+}
+.classabajo{
+    vertical-align: bottom;
+}
